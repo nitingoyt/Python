@@ -1,0 +1,14 @@
+
+def simple_generator():
+    for i in range(55):
+      yield i
+        
+    
+gen = simple_generator()
+
+print(next(gen))  
+print(next(gen))  
+print(next(gen))  
+
+for value in simple_generator():
+    print(value)

@@ -1,0 +1,22 @@
+
+class simple:
+    def __init__(self, status):
+        self.status = status
+    
+    def name(self , name):
+        self.name = name
+        print(f"Person naming {self.name} have {self.status} status")
+    
+    @staticmethod
+    def concatinate(a , b):
+        return a+b
+
+a = simple("High")
+a.name("Mukesh")
+# print(a.name)
+
+print(simple.concatinate(9,8))       
+       
+        
+
+    
